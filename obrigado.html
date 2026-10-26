@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WPMZW2LT');</script>
+<!-- End Google Tag Manager -->
+
+<!-- META PIXEL: colar o código do Pixel do Meta aqui (logo abaixo do GTM) -->
+<!-- Fim META PIXEL -->
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Pedido enviado | Ezem Mosaicos e Pedras</title>
+<meta name="robots" content="noindex, follow">
+<meta name="theme-color" content="#0E2240">
+<link rel="icon" href="favicon.ico" sizes="32x32">
+<link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
+<style>
+body{background:var(--marinho);color:#fff;min-height:100svh;display:flex;flex-direction:column}
+.sp{flex:1;display:grid;place-items:center;padding:3rem 1.25rem;position:relative;overflow:hidden}
+.sp::before{content:"";position:absolute;right:-10%;top:0;bottom:0;width:45%;background:var(--marinho-2);clip-path:polygon(35% 0,100% 0,100% 100%,0 100%)}
+.sp__in{position:relative;max-width:620px}
+.sp img.logo{width:190px;margin-bottom:2.5rem}
+.sp h1{font-size:clamp(2rem,1.4rem + 2.6vw,3.2rem);font-weight:600}
+.sp p{color:rgba(255,255,255,.78);margin-top:1rem;max-width:50ch}
+.sp .acoes{display:flex;flex-wrap:wrap;gap:.8rem;margin-top:2rem}
+.sp .big{font-family:var(--f-tit);font-weight:300;font-size:clamp(5rem,14vw,9rem);line-height:1;color:var(--ouro);margin-bottom:.5rem}
+</style>
+</head>
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WPMZW2LT"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+<main class="sp"><div class="sp__in">
+<a href="./"><img class="logo" src="assets/img/logo-ezem.svg" alt="Ezem Mosaicos e Pedras" width="190" height="50"></a>
+<h1>Pedido recebido. Agora é com a gente.</h1>
+<p>Abrimos a conversa no WhatsApp com os dados da sua obra. Se ela não abriu, toque no botão abaixo. Respondemos de segunda a sexta, das 07:30 às 11:30 e das 13:00 às 17:00.</p>
+<div class="acoes"><a class="btn btn--ouro" id="abrir-wa" href="https://wa.me/5585981448844?text=Ol%C3%A1%2C%20acabei%20de%20preencher%20o%20formul%C3%A1rio%20no%20site.%20Aguardo%20mais%20informa%C3%A7%C3%B5es." target="_blank" rel="noopener">Abrir o WhatsApp</a><a class="btn btn--linha" href="./">Voltar ao site</a></div>
+</div></main>
+<footer class="rodape" style="padding:1.5rem 0"><div class="wrap rodape__base" style="padding-top:0"><p>© 2026 Ezem Mosaicos e Pedras</p><p>Desenvolvido pro <a href="https://www.instagram.com/qh4growth/" target="_blank" rel="noopener">QH4 Growth</a></p></div></footer>
+<script>
+window.dataLayer=window.dataLayer||[];window.dataLayer.push({event:'pagina_obrigado'});
+try{var u=sessionStorage.getItem('ezem_wa');if(u)document.getElementById('abrir-wa').href=u;}catch(e){}
+document.getElementById('abrir-wa').addEventListener('click',function(){window.dataLayer.push({event:'whatsapp_click',local:'obrigado'})});
+</script>
+</body>
+</html>
